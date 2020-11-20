@@ -20,7 +20,6 @@ let current = 1;
 firstNextBtn.addEventListener("click", function(){
     var Dem_Heure = document.getElementById("Dem_Heure"); 
     var Dem_Inv = document.getElementById("Dem_Inv"); 
-    console.log(Dem_Heure.checked);
     slidePage.style.marginLeft = "-25%";
     bullet[current - 1].classList.add("active");
     progressCheck[current - 1].classList.add("active");
